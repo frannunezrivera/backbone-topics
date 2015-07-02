@@ -1,0 +1,12 @@
+<% if (!topic) { %>
+	<div>No topic selected</div>
+<% }else{ %>
+	
+	<ul>
+		<li class="title">Topic: <%= topic.label %></li>
+		<li>Total Mentions: <%= topic.volume %></li>
+		<li>Positive Mentions: <%= topic.sentiment.positive || 0 %></li>
+		<li>Neutral Mentions: <%= topic.sentiment.neutral || 0 %></li>
+		<li>Negative Mentions: <%= topic.sentiment.negative || 0 %></li>
+	</ul>
+<% } %>
