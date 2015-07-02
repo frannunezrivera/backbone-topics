@@ -7,10 +7,9 @@
 - bower install
 
 ## Running the project
+- grunt serve = runs the project 
 
-grunt serve = runs the project 
-
-grunt build = builds the project
-grunt test = tests the project
-grunt = grunt test + grunt build
+- grunt build = builds the project
+- grunt test = tests the project
+- grunt = grunt test + grunt build
 
